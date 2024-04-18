@@ -55,5 +55,7 @@ namespace TEST123.Src
         public string Bitbucket { get; set; }
         public string SourceForge { get; set; }
         public string Apache { get; set; }
+        public string Nginx { get; set; }
+        public string YoutubeMusic { get; set; }
     }
 }
