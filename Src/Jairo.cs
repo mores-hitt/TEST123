@@ -100,12 +100,12 @@ namespace TEST123.Src
 
         public Jairo(string name, string lastName, string university, string career, int age, string email)
         {
-            Name = "xddddddddddddddd";
-            LastName = "xdddddddddddd";
-            University = "xddddddddddddddddddddddddddd";
-            Career = "xdddddddddddddddddddddddddddddddddddddddddd";
-            Age = 11500;
-            Email = "xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd";
+            Name = name + " Jairo";
+            LastName = lastName;
+            University = university + "UNSA";
+            Career = career;
+            Age = age + 981497; 
+            Email = email;
         }
 
         // COMENTARIO PA TESTEAR EL PULL REQUEST
