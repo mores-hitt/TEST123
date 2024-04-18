@@ -55,5 +55,28 @@ namespace TEST123.Src
         public string Bitbucket { get; set; }
         public string SourceForge { get; set; }
         public string Apache { get; set; }
+
+        public Jairo()
+        {
+            Name = "Jairo";
+            LastName = "Calcina";
+            University = "Universidad Nacional de San Agustín de Arequipa";
+            Career = "Ingeniería de Sistemas";
+            Age = 20;
+            Email = "";
+        }
+
+        public Jairo(string name, string lastName, string university, string career, int age, string email)
+        {
+            Name = name;
+            LastName = lastName;
+            University = university;
+            Career = career;
+            Age = age;
+            Email = email;
+        }
+
+        // COMENTARIO PA TESTEAR EL PULL REQUEST
+
     }
 }
