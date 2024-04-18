@@ -67,6 +67,11 @@ namespace TEST123.Src
         //EL QUINTO MIERDAAAA
         public string Apache { get; set; }
 
+        public string Nginxxdddddddddddddddd { get; set; }
+        public string xsafasfjasdlkfjskal { get; set; }
+
+        //SEXTO COMENTARIO DE MIERDA PARA PROBAR EL PULL REQUEST DE MIERDA QUE NO FUNCIONA DE MIERDA
+
         public Jairo()
         {
             Name = "Jairo";
@@ -74,6 +79,16 @@ namespace TEST123.Src
             University = "Universidad Nacional de San Agustín de Arequipa";
             Career = "Ingeniería de Sistemas";
             Age = 20;
+            Email = "";
+        }
+
+        public Jairo(string name, string lastName, string university, string career, int age)
+        {
+            Name = name;
+            LastName = lastName;
+            University = university;
+            Career = career;
+            Age = age;
             Email = "";
         }
 
@@ -90,5 +105,13 @@ namespace TEST123.Src
         // COMENTARIO PA TESTEAR EL PULL REQUEST
 
 
+        public string Nginx { get; set; }
+        public string YoutubeMusic { get; set; }
     }
+
+    // Comentariooooooooooooooooooooooooooooooooo
+    // Comentariooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 }
+
+
+// Comentario para probar el pull request
