@@ -37,6 +37,14 @@ namespace TEST123.Src
 
         public string Spotify { get; set; }
         public string Netflix { get; set; }
+
+        //function to add a netflix account
+
+        public string AddNetflixAccount(string email, string password)
+        {
+            return $"Netflix account added with email: {email} and password: {password}";
+        }
+
         public string AmazonPrime { get; set; }
         public string DisneyPlus { get; set; }
         public string HBO { get; set; }
@@ -61,9 +69,6 @@ namespace TEST123.Src
 
         //CUARTO COMENTARIO CONCHETUMAREEEEE
 
-        public string Bitbucket { get; set; }
-        public string SourceForge { get; set; }
-
         //EL QUINTO MIERDAAAA
         public string Apache { get; set; }
 
@@ -77,8 +82,9 @@ namespace TEST123.Src
             Name = "Jairo";
             LastName = "Calcina";
             University = "Universidad Nacional de San Agustín de Arequipa";
-            Career = "Ingeniería de Sistemas";
-            Age = 20;
+            Career = "Ingeniería Sistemas";
+            Age = 2000;
+            Facebook = "Jairo Calcina";
             Email = "";
         }
 
