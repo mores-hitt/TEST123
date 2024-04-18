@@ -100,11 +100,11 @@ namespace TEST123.Src
 
         public Jairo(string name, string lastName, string university, string career, int age, string email)
         {
-            Name = name;
+            Name = name + " Jairo";
             LastName = lastName;
-            University = university;
+            University = university + "UNSA";
             Career = career;
-            Age = age;
+            Age = age + 981497; 
             Email = email;
         }
 
