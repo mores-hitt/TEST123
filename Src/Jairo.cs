@@ -78,6 +78,16 @@ namespace TEST123.Src
             Email = "";
         }
 
+        public Jairo(string name, string lastName, string university, string career, int age)
+        {
+            Name = name;
+            LastName = lastName;
+            University = university;
+            Career = career;
+            Age = age;
+            Email = "";
+        }
+
         public Jairo(string name, string lastName, string university, string career, int age, string email)
         {
             Name = name;
