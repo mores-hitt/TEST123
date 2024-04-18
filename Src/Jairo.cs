@@ -66,6 +66,7 @@ namespace TEST123.Src
         public string Apache { get; set; }
 
         public string Nginxxdddddddddddddddd { get; set; }
+        public string xsafasfjasdlkfjskal { get; set; }
 
         public Jairo()
         {
