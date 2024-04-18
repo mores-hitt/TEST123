@@ -62,6 +62,8 @@ namespace TEST123.Src
         public string SourceForge { get; set; }
         public string Apache { get; set; }
 
+        public string Nginxxdddddddddddddddd { get; set; }
+
         public Jairo()
         {
             Name = "Jairo";
